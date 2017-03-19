@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-2 col-lg-10 col-lg-offset-1">
+				<div id="surveyForm">
+					<h1>Short Survey</h1>
+
+					<form id="form" class="form-horizontal">
+						<h3>Which cities have you visited?</h3>
+						<div>
+							<label class="checkbox"><input type="checkbox" class="question1" value="LA">Los Angeles</label>
+						</div>
+						<div>
+							<label class="checkbox"><input type="checkbox" class="question1" value="Miami">Miami</label>
+						</div>
+						<div>
+							<label class="checkbox"><input type="checkbox" class="question1" value="NYC">New York City</label>
+						</div>
+						<div>
+							<label class="checkbox"><input type="checkbox" class="question1" value="Chicago">Chicago</label>
+						</div>
+						<div>
+							<label class="checkbox"><input type="checkbox" class="question1" value="Vegas">Las Vegas</label>
+						</div>
+
+						<h3>What's your favorite movie genre?</h3>
+						<select class="form-control">
+							<option class="question2" value="select your favorite genre"></option>
+							<option class="question2" value="Action">Action</option>
+							<option class="question2" value="Comedy">Comedy</option>
+							<option class="question2" value="Drama">Drama</option>
+							<option class="question2" value="Horror">Horror</option>
+							<option class="question2" value="Suspense">Suspense</option>
+						</select>
+
+						<h3>What is your favorite sport?</h3>
+						<div class="form-group">
+							<div class="radio">
+								<label><input type="radio" name="radio1" class="question3" value="Baseball">Baseball</label>
+							</div>
+							<div class="radio">
+								<label><input type="radio" name="radio1" class="question3" value="Basketball">Basketball</label>
+							</div>
+							<div class="radio">
+								<label><input type="radio" name="radio1" class="question3" value="Football">Football</label>
+							</div>
+							<div class="radio">
+								<label><input type="radio" name="radio1" class="question3" value="Golf">Golf</label>
+							</div>
+							<div class="radio">
+								<label><input type="radio" name="radio1" class="question3" value="Tennis">Tennis</label>
+							</div>
+						</div>
+						<button type="button" id="submitButton" class="btn">Submit Survey</button>
+					</form>
+
+					<div id="results"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+
+html, body {
+	height: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+	background-image: url("http://blog.hdwallsource.com/wp-content/uploads/2016/03/antelope-canyon-widescreen-wallpaper-50995-52691-hd-wallpapers-1024x640.jpg");
+}
+
+.container, .row, .col-sm-6{
+	height: inherit;
+}
+
+#surveyForm {
+	background-color: #FFdd99;
+	border:1px solid #FFcc99;
+	border-radius:10px;
+	height: 650px;
+	margin: auto;
+	padding:0px 20px 0;
+	position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.checkbox, .radio {
+	padding-left:20px;
+}
+
+#results {
+	color: #fff;
+	margin: 10px 20px;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+.success {
+	background-color: #33ccff;
+	transition: 0.3s all ease-in-out;
+}
+
+.failure {
+	background-color: #990000;
+	transition: 0.3s all ease-in-out;
+}
+
